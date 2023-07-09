@@ -1,0 +1,81 @@
+.main-container {
+  background-color: black;
+  margin: 10%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.user-profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.user-profile {
+  background-color: aliceblue;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-name {
+  font-size: larger;
+  color: white;
+  font-weight: 600;
+}
+
+.balance-main-container {
+  display: flex;
+  background-color: transparent;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.your-balance {
+  color: blueviolet;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.balance-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.balance {
+  color: white;
+  font-size: larger;
+  font-weight: 800;
+}
+
+.balance-type {
+  color: blueviolet;
+  font-size: 15px;
+  text-align: left;
+}
+
+.withdraw-container {
+  background-color: transparent;
+}
+
+.withdraw-heading {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+.choose-denomination {
+  font-size: 16px;
+  color: blueviolet;
+  font-weight: 500;
+}
+
+.denominations-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
